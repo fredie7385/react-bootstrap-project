@@ -7,6 +7,7 @@ import Works from './components/Works';
 import Team from './components/Team';
 import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
+import Blog from './components/Blog';
 
 
 
@@ -21,6 +22,7 @@ function App() {
         <Team/>
         <Testimonials/>
         <Pricing/>
+        <Blog/>
       </section> 
     </>)
 }
