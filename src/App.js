@@ -9,6 +9,7 @@ import Testimonials from './components/Testimonials';
 import Pricing from './components/Pricing';
 import Blog from './components/Blog';
 import Contact from './Forms/Contact';
+import Footer from './components/Footer';
 
 
 
@@ -26,6 +27,7 @@ function App() {
         <Blog/>
         <Contact/>
       </section> 
+      <Footer />
     </>)
 }
 
