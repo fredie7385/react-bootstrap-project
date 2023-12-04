@@ -1,12 +1,18 @@
 import Header from './components/Header';
 import './App.css';
 import CarouselAppHero from './components/Carousel';
+import About from './components/About';
+import Services from './components/Services';
 
 
 function App() {
   return (<>
       <Header/>
-      <CarouselAppHero/>  
+      <section>
+        <CarouselAppHero/>
+        <About/>
+        <Services/>
+      </section> 
     </>)
 }
 
