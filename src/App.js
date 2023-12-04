@@ -27,7 +27,9 @@ function App() {
         <Blog/>
         <Contact/>
       </section> 
-      <Footer />
+      <footer id='footer' style={{height:'10rem'}}>
+          <Footer />
+      </footer>
     </>)
 }
 
