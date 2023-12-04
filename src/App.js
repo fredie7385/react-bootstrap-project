@@ -2,7 +2,7 @@ import Header from './components/Header';
 import './App.css';
 import CarouselAppHero from './components/Carousel';
 import About from './components/About';
-import Services from './components/Services';
+import Services from './components/Services'
 
 
 function App() {
@@ -11,7 +11,7 @@ function App() {
       <section>
         <CarouselAppHero/>
         <About/>
-        <Services/>
+        <Services/> 
       </section> 
     </>)
 }
