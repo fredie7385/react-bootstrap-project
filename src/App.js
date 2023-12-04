@@ -1,9 +1,12 @@
-import React from 'react'
-import './App.css'
+import Header from './components/Header';
+import './App.css';
+import CarouselAppHero from './components/Carousel';
+
 
 function App() {
   return (<>
-    <div>Sample</div>
+      <Header/>
+      <CarouselAppHero/>  
     </>)
 }
 
