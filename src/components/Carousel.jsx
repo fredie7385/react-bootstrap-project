@@ -27,7 +27,7 @@ let heroData = [
 function CarouselAppHero() {
   return (
     <section id="home" className="hero-block">
-       <Carousel>
+       <Carousel controls={false} fade={true}>
           {
             heroData.map(hero => {
               return (

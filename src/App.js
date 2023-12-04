@@ -3,6 +3,10 @@ import './App.css';
 import CarouselAppHero from './components/Carousel';
 import About from './components/About';
 import Services from './components/Services'
+import Works from './components/Works';
+import Team from './components/Team';
+import Testimonials from './components/Testimonials';
+
 
 
 function App() {
@@ -12,6 +16,9 @@ function App() {
         <CarouselAppHero/>
         <About/>
         <Services/> 
+        <Works/>
+        <Team/>
+        <Testimonials/>
       </section> 
     </>)
 }

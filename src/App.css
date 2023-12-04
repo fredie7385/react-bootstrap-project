@@ -650,6 +650,7 @@ html {
   .teams-block .image img {
     width: 100%;
     height: auto;
+    border-radius:5px;
   }
   
   .teams-block .image .overlay {
